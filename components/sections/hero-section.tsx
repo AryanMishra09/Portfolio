@@ -112,7 +112,7 @@ export function HeroSection() {
               className="w-full sm:w-auto group border-2 hover:bg-primary/10 bg-transparent min-h-[48px]"
               asChild
             >
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Download size={16} className="mr-2 group-hover:translate-y-1 transition-transform" />
                 Download Resume
               </a>
