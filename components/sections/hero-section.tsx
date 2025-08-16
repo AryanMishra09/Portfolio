@@ -4,15 +4,14 @@ import { motion } from "framer-motion"
 import { ArrowDown, Download, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { BackgroundLines } from "../ui/background-lines"
 
 export function HeroSection() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+
+    <BackgroundLines className="flex items-center w-full flex-col ">
+    <section id="home" className="min-h-screen flex relative overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-background/50">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(120,119,198,0.1),transparent_50%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(120,119,198,0.05),transparent_50%)]" />
-      </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Avatar */}
@@ -138,5 +137,6 @@ export function HeroSection() {
         </div>
       </div>
     </section>
+    </BackgroundLines>
   )
 }
