@@ -104,7 +104,7 @@ export function Footer() {
                 className="glass border-white/20 hover:border-white/40 text-white hover:bg-white/10 bg-transparent"
                 asChild
               >
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="w-4 h-4 mr-2" />
                   View Resume
                 </a>
