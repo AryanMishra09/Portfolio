@@ -25,24 +25,37 @@ export const metadata: Metadata = {
   keywords: ["Backend Engineer", "Full Stack Developer", "Node.js", "TypeScript", "AI/ML", "DevOps", "Health Tech"],
   authors: [{ name: "Aryan Mishra" }],
   creator: "Aryan Mishra",
-  openGraph: {
+   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://aryanmishra.dev",
     title: "Aryan Mishra - Backend Engineer & Full-Stack Developer",
     description: "SDE-1 at Medecro specializing in scalable backend systems, AI/ML integration, and DevOps.",
     siteName: "Aryan Mishra Portfolio",
+    images: [
+      {
+        url: "/logo.png", 
+        width: 1200,
+        height: 630,
+        alt: "Aryan Mishra Portfolio Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Aryan Mishra - Backend Engineer & Full-Stack Developer",
     description: "SDE-1 at Medecro specializing in scalable backend systems, AI/ML integration, and DevOps.",
+    images: ["/logo.png"],
   },
   robots: {
     index: true,
     follow: true,
   },
-    generator: 'v0.app'
+  icons: {
+    icon: "/logo.png", 
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 }
 
 export default function RootLayout({

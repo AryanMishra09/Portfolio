@@ -82,7 +82,11 @@ export function Navigation() {
                 }}
                 className="text-xl font-bold font-space-grotesk text-gradient"
               >
-                AM
+                <img
+                    src="/logo.png"
+                    alt="AM"
+                    className="w-14 h-14 object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
               </a>
             </motion.div>
 
