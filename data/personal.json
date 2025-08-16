@@ -1,0 +1,17 @@
+{
+  "name": "Aryan Mishra",
+  "title": "Backend Engineer & Full-Stack Developer",
+  "tagline": "Building scalable health-tech solutions that impact thousands of users",
+  "bio": "SDE-1 at Medecro with expertise in backend architecture, AI/ML integration, and DevOps. Passionate about creating robust systems that solve real-world problems in healthcare technology.",
+  "location": "Noida, India",
+  "email": "mishraaryan9204@gmail.com",
+  "phone": "9302623817",
+  "social": {
+    "github": "https://github.com/AryanMishra09",
+    "linkedin": "https://www.linkedin.com/in/aryanmishra09/",
+    "twitter": "",
+    "website": ""
+  },
+  "avatar": "/aryan-avatar.jpg",
+  "resume": "/resume.pdf"
+}

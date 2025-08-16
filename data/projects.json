@@ -1,0 +1,80 @@
+[
+  {
+    "id": "verbi",
+    "title": "Verbi",
+    "summary": "AI-powered language learning platform with gamified experience",
+    "description": "Developed Verbi using Next.js 14, DrizzleORM, and PostgreSQL, featuring AI-powered voices, gamified learning, Shadcn UI, and Stripe integration for seamless user experience.",
+    "image": "/placeholder.svg?height=400&width=600",
+    "technologies": ["Next.js 14", "DrizzleORM", "PostgreSQL", "AI/ML", "Stripe", "Shadcn UI"],
+    "category": "Web",
+    "featured": true,
+    "links": {
+      "live": "https://verbi-tau.vercel.app/",
+      "github": "",
+      "case": ""
+    },
+    "highlights": [
+      "AI-powered voice synthesis for pronunciation training",
+      "Gamified learning system with progress tracking",
+      "Stripe payment integration for premium features",
+      "Responsive design with modern UI components"
+    ],
+    "metrics": {
+      "users": "500+",
+      "performance": "95+ Lighthouse Score",
+      "uptime": "99.9%"
+    }
+  },
+  {
+    "id": "quatrix",
+    "title": "Quatrix",
+    "summary": "Automation SaaS for seamless cross-platform workflows",
+    "description": "Developed Quatrix, an automation SaaS that integrates Google Drive, Notion, Slack, and Discord, enabling seamless cross-platform workflows and productivity automation.",
+    "image": "/placeholder.svg?height=400&width=600",
+    "technologies": ["Node.js", "TypeScript", "API Integration", "Webhooks", "OAuth"],
+    "category": "Backend",
+    "featured": true,
+    "links": {
+      "live": "https://quatrix.vercel.app/",
+      "github": "",
+      "case": ""
+    },
+    "highlights": [
+      "Multi-platform integration (Google Drive, Notion, Slack, Discord)",
+      "Automated workflow triggers and actions",
+      "OAuth authentication for secure connections",
+      "Real-time webhook processing"
+    ],
+    "metrics": {
+      "integrations": "4+",
+      "workflows": "100+",
+      "automation": "80% time saved"
+    }
+  },
+  {
+    "id": "cologram",
+    "title": "Cologram",
+    "summary": "MERN stack platform for educational institutions",
+    "description": "Built a MERN stack platform enabling real-time updates on academics, exams, and club activities, improving information flow and overall educational experience.",
+    "image": "/placeholder.svg?height=400&width=600",
+    "technologies": ["MongoDB", "Express.js", "React", "Node.js", "Socket.io"],
+    "category": "Web",
+    "featured": false,
+    "links": {
+      "live": "https://cologram.onrender.com/",
+      "github": "",
+      "case": ""
+    },
+    "highlights": [
+      "Real-time updates for academic information",
+      "Club activity management system",
+      "Exam scheduling and notifications",
+      "Student-faculty communication portal"
+    ],
+    "metrics": {
+      "students": "1000+",
+      "institutions": "5+",
+      "engagement": "70% increase"
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "medecro-sde1",
+    "company": "Medecro",
+    "role": "SDE-1",
+    "duration": "Aug 2025 – Present",
+    "location": "Noida",
+    "type": "Full-time",
+    "logo": "/placeholder.svg?height=60&width=60",
+    "description": "Sole backend owner for the company's health-tech suite",
+    "highlights": [
+      "Sole backend owner for health-tech suite (CMS, PMS, EHR, AI Radiology)",
+      "Scaled backend to support 3× more concurrent users without performance loss",
+      "Architected distributed AI inference pipeline, cutting scan processing time by 40%",
+      "Led DevOps improvements with automated rollbacks and blue-green deployments"
+    ],
+    "technologies": ["Node.js", "TypeScript", "Go", "Docker", "Kubernetes", "Prometheus", "Grafana", "AI/ML"]
+  },
+  {
+    "id": "medecro-intern",
+    "company": "Medecro",
+    "role": "SDE Intern",
+    "duration": "Aug 2024 – Jul 2025",
+    "location": "Noida",
+    "type": "Internship",
+    "logo": "/placeholder.svg?height=60&width=60",
+    "description": "Built the entire backend from scratch as the only backend engineer",
+    "highlights": [
+      "Built entire backend from scratch covering system design and API development",
+      "Developed REST APIs powering web, mobile, and admin platforms",
+      "Integrated AI/ML models into production with data science team",
+      "Implemented secure authentication using ORY Kratos/Keto in Go"
+    ],
+    "technologies": ["Node.js", "TypeScript", "Go", "ORY Kratos", "ORY Keto", "Docker", "Kubernetes", "Helm"]
+  },
+  {
+    "id": "autotext",
+    "company": "AutoText",
+    "role": "SDE Intern",
+    "duration": "May 2024 – Aug 2024",
+    "location": "Remote",
+    "type": "Internship",
+    "logo": "/placeholder.svg?height=60&width=60",
+    "description": "Enhanced platform reliability and user experience",
+    "highlights": [
+      "Integrated payment gateway enabling secure real-time transactions",
+      "Enhanced authentication flow reducing login failures",
+      "Developed multiple UI components for smooth user experience"
+    ],
+    "technologies": ["React", "Node.js", "Payment Gateway", "Authentication"]
+  },
+  {
+    "id": "eirl",
+    "company": "Engineering Innovations Research Lab Pvt Ltd",
+    "role": "Software Engineering Intern",
+    "duration": "Jan 2024 – May 2024",
+    "location": "Remote",
+    "type": "Internship",
+    "logo": "/placeholder.svg?height=60&width=60",
+    "description": "Developed APIs and authentication systems",
+    "highlights": [
+      "Developed APIs for user registration, scheduling, and payments",
+      "Optimized MongoDB queries for better performance",
+      "Built authentication & RBAC for role-specific access control"
+    ],
+    "technologies": ["Node.js", "MongoDB", "RBAC", "API Development"]
+  }
+]
