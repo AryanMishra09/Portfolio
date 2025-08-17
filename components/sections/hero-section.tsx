@@ -9,10 +9,10 @@ import { BackgroundLines } from "../ui/background-lines"
 export function HeroSection() {
   return (
 
-    <BackgroundLines className="flex items-center w-full flex-col ">
+    <BackgroundLines className="flex items-center w-full flex-col">
     <section id="home" className="min-h-screen flex relative overflow-hidden">
       {/* Animated Background */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-36 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Avatar */}
           <motion.div

@@ -100,8 +100,8 @@ export function ContactSection() {
                 whileHover={{ x: 5 }}
                 className="flex items-center gap-4 p-4 rounded-lg bg-card/50 backdrop-blur-sm border border-border/50 hover:cursor-pointer"
               >
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <Mail className="text-white" size={20} />
+                <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <Mail className="text-white" size={15} />
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
@@ -118,8 +118,8 @@ export function ContactSection() {
                 whileHover={{ x: 5 }}
                 className="flex items-center gap-4 p-4 rounded-lg bg-card/50 backdrop-blur-sm border border-border/50 hover:cursor-pointer"
               >
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <Phone className="text-white" size={20} />
+                <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <Phone className="text-white" size={15} />
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
@@ -133,8 +133,8 @@ export function ContactSection() {
                 whileHover={{ x: 5 }}
                 className="flex items-center gap-4 p-4 rounded-lg bg-card/50 backdrop-blur-sm border border-border/50 hover:cursor-pointer"
               >
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <MapPin className="text-white" size={20} />
+                <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <MapPin className="text-white" size={15} />
                 </div>
                 <div>
                   <p className="font-medium">Location</p>
@@ -208,6 +208,7 @@ export function ContactSection() {
                       placeholder="Your name"
                       required
                       disabled={isSubmitting}
+                      className="mt-1 border border-border focus:ring-1 focus:ring-blue-500 focus-visible:ring-purple-500 transition-all"
                     />
                   </div>
 
@@ -224,6 +225,7 @@ export function ContactSection() {
                       placeholder="your.email@example.com"
                       required
                       disabled={isSubmitting}
+                      className="mt-1 border border-border focus:ring-1 focus:ring-blue-500 focus-visible:ring-purple-500 transition-all"
                     />
                   </div>
 
@@ -240,6 +242,7 @@ export function ContactSection() {
                       rows={5}
                       required
                       disabled={isSubmitting}
+                      className="mt-1 border border-border focus:ring-1 focus:ring-blue-500 focus-visible:ring-purple-500 transition-all"
                     />
                   </div>
 
