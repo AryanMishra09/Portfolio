@@ -15,35 +15,38 @@ export function HeroSection() {
       </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Avatar */}
+          {/* Avatar Section */}
           <motion.div
-            initial={{ scale: 0, rotate: -180 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ duration: 2.0, ease: "easeOut" }}
-            className="mb-8 flex justify-center"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.2, ease: "easeOut" }}
+            className="relative flex justify-center items-end h-fit"
           >
-            <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 animate-pulse blur-md opacity-75" />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 animate-glow blur-sm" />
-              <motion.div
-                className="absolute w-4 h-4 bg-cyan-500 rounded-full blur-sm"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                style={{ originX: 6, originY: 6 }}
-              />      
-              <motion.div
-                className="absolute w-4 h-4 bg-purple-500 rounded-full blur-sm"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-                style={{ originX: 6, originY: 6 }}
-              />
-              <Avatar className="w-32 h-32 sm:w-42 sm:h-42 md:w-52 md:h-52 relative border-4 border-background shadow-2xl">
-                <AvatarImage src="/aryan-avatar.jpg" alt="Aryan Mishra" className="object-cover" />
-                <AvatarFallback className="text-2xl font-bold bg-gradient-to-br from-blue-500 to-purple-600 text-white">
-                  AM
-                </AvatarFallback>
-              </Avatar>
-            </div>
+            {/* Elegant Gradient Background */}
+            {/* <div className="absolute inset-0 flex justify-center items-center">
+              <div className="w-[500px] h-[500px] rounded-full bg-gradient-to-tr from-indigo-500/20 via-purple-500/10 to-pink-500/20 blur-3xl animate-[pulse_6s_ease-in-out_infinite]"></div>
+            </div> */}
+
+            {/* Subtle Grid Overlay */}
+            {/* <div className="absolute inset-0 opacity-20">
+              <div className="w-full h-full bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[length:24px_24px]"></div>
+            </div> */}
+
+            {/* Person image */}
+            <motion.img
+              src="/avatar.png"
+              alt="Aryan Mishra"
+              className="relative w-44 sm:w-56 md:w-72 drop-shadow-2xl mb-8"
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 1.2, ease: "easeOut" }}
+            />
+
+            {/* Ground shadow */}
+            {/* <div className="absolute bottom-6 w-56 h-10 bg-black/40 blur-2xl rounded-full opacity-70"></div> */}
+
+            {/* Subtle floor gradient */}
+            {/* <div className="absolute bottom-0 inset-x-0 h-32 bg-gradient-to-t from-black/40 via-black/20 to-transparent"></div> */}
           </motion.div>
 
           {/* Greeting Animation */}
